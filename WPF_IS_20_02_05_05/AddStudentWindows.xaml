@@ -1,0 +1,30 @@
+﻿<Window x:Class="WPF_IS_20_02_05_05.AddStudentWindows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_IS_20_02_05_05"
+        mc:Ignorable="d"
+        Title="Добавить нового студента" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            
+            <TextBox Margin="5" x:Name="tbName" ></TextBox>
+            <Label >Укажите имя </Label>
+
+            <TextBox Margin="5" x:Name="tbFamily" ></TextBox>
+            <Label >Укажите Фамилию</Label>
+
+
+            <TextBox Margin="5" x:Name="tbTelefone" ></TextBox>
+            <Label >Укажите Телефон </Label>
+
+
+            <TextBox Margin="5" x:Name="tbGroupName" ></TextBox>
+            <Label >Укажите группу</Label>
+
+            <Button Click="Button_Click"
+                    >Сохранить  в  БД</Button>
+        </StackPanel>
+    </Grid>
+</Window>
